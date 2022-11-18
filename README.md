@@ -1,70 +1,223 @@
-# Getting Started with Create React App
+// cd basichttpserver
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+// node index.js
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+//GIT BRANCH
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+git branch
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+git branch name
 
-### `npm run eject`
+git branch name checkout
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+git branch
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+git init
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+git add .
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+git status
 
-## Learn More
+git commit -m "msg"
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+git push -u origin branchname
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+git push -f -u origin main
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+// create a new repository on the command line echo "# -Mini-Project-Finishing-up" >> README.md
 
-### Deployment
+git init
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+git add .
 
-### `npm run build` fails to minify
+git commit -m "SERVER"
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+git branch -M main
+
+git remote add origin git@github.com:VIKASJI593/nodejs.git
+
+git push -u origin main
+
+git push -f -u origin main
+
+
+
+
+
+
+
+//push an existing repository from the command line
+
+git remote add origin git@github.com:VIKASJI593/-Mini-Project-Finishing-up.git
+
+git branch -M main
+
+git push -u origin main
+
+git push -f -u origin main
+
+
+
+
+
+//RENAME git remote rename origin tutorial
+git config --global user.name "VIKAS KUMAR"
+git config --global user.email "kumar.vikas593@gmail.com"
+
+git remote
+
+ git remote -v
+
+git remote remove firebase
+
+git remote
+
+ git remote -v
+
+git remote add firebase https://github.com/VIKASJI593/firebase.git
+
+git remote add firebase https://github.com/VIKASJI593/testing.git
+
+git remote set-url origin https://github.com/VIKASJI593/firebase.git
+
+git remote set-url origin https://github.com/VIKASJI593/testing.git
+
+git remote rename firebase origin
+
+git add .
+
+git commit -m "Component-Lifecycle-Mounting"
+
+git branch Component-Lifecycle-Mounting
+git checkout Component-Lifecycle-Mounting
+
+
+git push -u origin firebase
+
+git push -f -u origin Component-Lifecycle-Mounting
+
+
+
+
+
+
+
+
+//UPDATE NODEJS To update Node.js, you’ll need npm’s handy n module. Run the code below to clear npm’s cache, install n, and update to the latest stable version of Node.js:
+
+sudo npm cache clean -f
+
+sudo npm install -g n
+
+sudo n stable
+
+
+
+
+
+
+
+
+
+//UBUNTU ROOT ERROR 
+sudo rm /var/lib/apt/lists/lock sudo rm /var/cache/apt/archives/lock ...to no avail. Interestingly, if I am actually root and use:
+
+sudo -s apt-get update && apt-get upgrade
+
+sudo npm install -g n sudo n lts
+
+//restart terminal node --version npm --version
+
+
+
+
+
+//install shortcut 
+sudo apt install shotcut
+
+//balena etcher Install FUSE sudo add-apt-repository universe sudo apt install libfuse2
+
+download balena etcher
+
+
+
+
+
+
+//ssh
+
+ssh-keygen -t ed25519 -C "kumar.vikas593@gmail.com"
+
+eval "$(ssh-agent -s)"
+
+// add to github
+
+cat ~/.ssh/id_ed25519.pub
+
+Then select and copy the contents of the id_ed25519.pub file
+displayed in the terminal to your clipboard
+
+
+
+
+
+
+
+
+
+//snap store update
+
+Just run this command:
+
+sudo snap refresh snap-store
+
+It will show the information about running snap apps
+
+error: cannot refresh "snap-store": snap "snap-store" has running apps
+       (ubuntu-software), pids: 2137
+Then kill them. and run again same command:
+
+kill 2137
+sudo snap refresh snap-store
+
+
+
+
+
+1. Download Windows ISO file from https://www.microsoft.com/en-in/softw...
+
+2. Install WoeUSB tool using following commands:
+
+    sudo apt update
+    
+    sudo apt install git p7zip-full python3-pip python3-wxgtk4.0
+    
+    sudo pip3 install WoeUSB-ng
+    
+3. Insert blank Flash Drive
+
+4. Unmount Flash Drive
+
+5. Open WoeUSB GUI tool
+
+6.  Flash the flash drive using instructions on WoeUSB tool's GUI interface
+
+
+
+
+
